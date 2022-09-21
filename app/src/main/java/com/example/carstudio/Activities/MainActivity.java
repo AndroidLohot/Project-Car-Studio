@@ -1,13 +1,15 @@
-package com.example.carstudio;
+package com.example.carstudio.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.example.carstudio.CustomClass.Car;
+import com.example.carstudio.R;
 import com.example.carstudio.RecyclerViewAdapter.MyRecyclerAdapter;
 
 import java.util.ArrayList;
@@ -43,6 +45,16 @@ public class MainActivity extends AppCompatActivity implements MyRecyclerAdapter
 
     @Override
     public void setOnItemClickListener(int position) {
+
+        Car car = carList.get(position);
+
+        Toast.makeText(this, "Category index "+car.getCarID(), Toast.LENGTH_SHORT).show();
+
+        Intent intent = new Intent(MainActivity.this, DetailActivity.class);
+
+        intent.putExtra("Car", car);
+
+        startActivity(intent);
 
     }
 }

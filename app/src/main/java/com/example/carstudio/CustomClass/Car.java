@@ -18,6 +18,9 @@ public class Car implements Serializable {
         this.carColor = carColor;
     }
 
+    public Car() {
+    }
+
     public Car(int carID, String catImage, String carCategory) {
         this.carID = carID;
         this.catImage = catImage;

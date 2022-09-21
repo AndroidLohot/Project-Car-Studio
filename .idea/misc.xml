@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Program/Projects/Car Studio/app/src/main/res/layout/activity_detail.xml" value="0.18" />
         <entry key="..\:/Android Program/Projects/Car Studio/app/src/main/res/layout/activity_main.xml" value="0.11944444444444445" />
+        <entry key="..\:/Android Program/Projects/Car Studio/app/src/main/res/layout/detail_rv_layout.xml" value="0.18" />
         <entry key="..\:/Android Program/Projects/Car Studio/app/src/main/res/layout/my_recycler_layout.xml" value="0.17239583333333333" />
       </map>
     </option>

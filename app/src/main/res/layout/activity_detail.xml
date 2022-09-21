@@ -5,14 +5,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activities.MainActivity"
-    android:gravity="center"
+    tools:context=".Activities.DetailActivity"
     android:orientation="vertical">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvMainList"
+        android:id="@+id/rvDetailList"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="100dp"/>
+        android:layout_height="match_parent" />
 </LinearLayout>
